@@ -1,0 +1,80 @@
+.arrange {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 100px;
+    padding-left: 110px;
+    margin-top: 10em;
+}
+
+.arrange ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.arrange li {
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arrange .sqr{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(269,69,76);
+}
+.arrange .b1{
+    border: 2px solid #e4e4e4;
+     padding: 3em;
+     height: 270px;
+     width:190px;
+     padding-top: 10px;
+     border-radius: 20px;
+     box-shadow: 0 0 8px 4px rgba(140, 117, 117, 0.2);
+}
+
+.arrange .b1 .mong{
+    padding-top: 6px;
+    height: 110px;
+    width: 150px;
+    border-radius: 20px;
+    
+}
+
+.arrange .b1 .ltn{
+    float: left;
+    font-size: 17px;
+    
+    
+}
+.arrange .b1  .ltn:hover{
+    border: 1px solid rgb(252,83,40);
+   
+}
+
+.arrange .b1 .rtn{
+    float: right;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(252,83,40);
+    border-radius: 50%;
+}
+
+
+.arrange .b1 .d-price{
+   font-size: 24px;
+}
+
+.q{
+    position: absolute;
+    top: 160px;
+    left: 140px;
+    background-color: rgb(229, 69, 6);
+    height: 200px;
+    width: 600px;
+}

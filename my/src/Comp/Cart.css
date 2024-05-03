@@ -1,0 +1,142 @@
+.dblock{
+    display: flex;
+    flex-direction: wrap;
+}
+
+.dblock .menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(229, 69, 6);
+    width: auto;
+    height: 100%;
+    padding: 0px;  
+}
+.dblock .menu .navi{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding:20px;
+    justify-content: space-between;
+  
+}
+.dblock .menu .navi .icon{
+       
+        border: 2px solid rgb(229,69,6);
+        padding: 16px;
+        border-radius: 50%;
+        background-color: aliceblue;
+
+}
+
+.dblock .block {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8em;
+    
+}
+.dblock .block ul{
+
+    list-style: none;
+}
+.dblock .block li{
+    list-style: none;
+    padding-top: 1em;
+}
+
+.dblock .block .c1{
+    border: 2px solid #e4e4e4;
+     padding: 3em;
+     height: 180px;
+     width:550px;
+     padding-top: 9px;
+     border-radius: 20px;
+     box-shadow: 0 0 8px 4px rgba(140, 117, 117, 0.2);
+}
+
+.dblock .block .c1 .mong{
+    padding-top: 25px;
+    height: 100px;
+    width: 130px;
+    border-radius: 18px ;
+     
+}
+.dblock .block .c1 .d-name{
+    position: absolute;
+    display:inline-block;
+    padding-left: 2em; 
+    font: 900; 
+}
+
+.block .c1 .d-price{
+    position: absolute;
+    display: inline-block;
+    padding-left: 4em;
+    padding-top: 3em;
+    font-size: 20px;
+
+}
+
+.block .c1 .count{
+    position: absolute;
+    display: inline-block;
+    padding-left: 3em;
+    padding-top: 8em;
+    font-size: 16px;
+  
+}
+
+.block .c1 .del{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    padding-top: 8em;
+    padding-left: 13em;
+    font-size: 16px;
+   
+}
+.block .c1 button{
+    background-color: rgb(229, 69, 6);
+}
+
+.dark{
+    position: fixed;
+    top: 16px;
+    right: 10px;
+    float: right;
+    height: 460px;
+    width: 500px;
+    background-color: rgb(229, 69, 6);
+    border-radius: 20px;
+    color: white;
+    padding-left: 10px;
+    
+}
+.qwer{
+    position: fixed;
+    top: 31em;
+    right: 10px;
+    float: right;
+    width: 520px;
+    background-color: rgb(229, 69, 6);
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+.q{
+    position: absolute;
+    top: 160px;
+    left: 140px;
+    background-color: rgb(229, 69, 6);
+    height: 200px;
+    width: 600px;
+}
+
+.dblock .dark .s1{
+    padding-left: 2em;
+    font-size: 25px;
+}

@@ -1,0 +1,87 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(229, 69, 6);
+    width: auto;
+    height: 100%;
+    padding: 0px;  
+}
+.menu .navi{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding:20px;
+    justify-content: space-between;
+  
+}
+.menu .navi .icon{
+       
+        border: 2px solid rgb(229,69,6);
+        padding: 16px;
+        border-radius: 50%;
+        background-color: aliceblue;
+
+}
+
+
+.container {
+    position: absolute;
+    top: 7%;
+    left: 50%; /* Changed left position to center the container */
+    transform: translateX(-50%);
+    border: 2px solid rgb(229, 69, 6);
+    border-radius: 12px;
+    padding: 4em;
+    width: 410px;
+    padding-top: 5em;
+    transform: translateX(-50%);
+
+}
+
+.container img {
+    width: 60px;
+}
+
+.container label {
+    font-size: 22px;
+    color: rgb(229, 69, 6);
+    margin-bottom: 10px; 
+}
+
+.container input {
+   position: inherit;
+   font-size: 21px;
+    padding: 7px;
+    padding-left: 20px;
+    width: calc(100% - 40px);
+    margin-bottom: 15px; 
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(229, 69, 6);
+    border-radius: 30px;
+    color: rgb(229, 69, 6);
+    
+}
+
+.container .bn {
+    margin-top: 26px;
+    background-color: rgb(222, 52, 10);
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 9em;
+    color: white;
+   
+}
+
+.container .bn:hover {
+    background-color: rgb(229, 69, 6);
+}
+
+.container .bn:focus {
+    border-color: rgb(236, 218, 11);
+}
+
+.container .bn:active {
+    background-color: rgb(224, 72, 26);
+}

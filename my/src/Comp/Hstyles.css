@@ -1,0 +1,113 @@
+.q{
+    position: absolute;
+    top: 160px;
+    left: 140px;
+    background-color: rgb(229, 69, 6);
+    height: 200px;
+    width: 600px;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(229, 69, 6);
+    width: auto;
+    height: 100%;
+    padding: 0px;  
+}
+.menu .navi{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding:20px;
+    justify-content: space-between;
+  
+}
+.menu .navi .icon{
+       
+        border: 2px solid rgb(229,69,6);
+        padding: 16px;
+        border-radius: 50%;
+        background-color: aliceblue;
+
+}
+.iimg{
+    position: absolute;
+    top: 2em;
+    left: 10em;
+    border-radius: 50%;
+    height: 88px;
+}
+
+input{
+    position: absolute;
+    top: 3em;
+    right: 17em;
+    width: 15%;
+    padding: 10px;
+    padding-left: 10px;
+    border: 2px solid rgb(229, 69, 6);
+    border-radius: 33px;
+}
+input:focus:active{
+    border-color: rgb(229, 69, 6);
+    color: rgb(229, 69, 6);
+}
+
+.user{
+    position: absolute;
+    top: 2em;
+    right:8em;
+    font-size: 22px;
+    
+}
+.shop{
+    position: absolute;
+    top: 2em;
+    right:6em;
+    font-size: 22px;
+}
+.bell{
+    position: absolute;
+    top: 2em;
+    right:4em;
+    font-size: 22px;
+}
+
+.menu-list  {
+    /* display: block;
+    display: flex;
+    flex-direction: row; */
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 8em;
+    position:absolute;
+    top: 9em;
+    left: 19em;
+    margin-left: 35em;
+   
+    
+}
+
+.menu-list img{
+    border: 2px solid rgb(229, 69, 6);
+    border-radius: 50%;
+}
+.menu-list h2{
+    font-size: 18px;
+    color: rgb(229, 69, 6);
+    cursor: pointer; 
+    padding-left: 10px;
+}
+.menu-list h2:hover{
+   color: rgb(255, 166, 0);
+    
+}
+
+    .menu-list h2:hover{
+       color: rgb(255, 166, 0);
+        
+    }
