@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "66294495f1912d9c1aa190c1"
+  },
+  "name": "Tomato Pizza",
+  "image": "https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?t=st=1713978558~exp=1713982158~hmac=6242e4b482b19deb4f1f363783673473e5da949b85755f538f7d4d06eb87ba7c&w=740",
+  "price": 200
+},
+{
+  "_id": {
+    "$oid": "6629468bf1912d9c1aa190c3"
+  },
+  "name": "Pepperoni Pizza",
+  "image": "https://img.freepik.com/free-photo/pizza-pepperoni-table_140725-7426.jpg?t=st=1713981043~exp=1713984643~hmac=25003eed1cc4c7daeb0dc471885a078589a5009734f6a52ed1fa2ee3e50131c2&w=360",
+  "price": 300
+},
+{
+  "_id": {
+    "$oid": "662947e8f1912d9c1aa190c5"
+  },
+  "name": "Mushroom Pizza",
+  "image": "https://img.freepik.com/free-photo/delicious-pizza-with-mushrooms_23-2148516992.jpg?t=st=1713981293~exp=1713984893~hmac=ca97f4b92fa4cd5d14d2db17c51d61a8f10ae6bd7e7959a7e93e790fa5714b62&w=740",
+  "price": 350
+},
+{
+  "_id": {
+    "$oid": "66294895f1912d9c1aa190c6"
+  },
+  "name": "Vegetarian Pizza",
+  "image": "https://img.freepik.com/premium-photo/top-view-fresh-vegetarian-pizza_101125-783.jpg?w=740",
+  "price": 150
+},
+{
+  "_id": {
+    "$oid": "6629494af1912d9c1aa190c7"
+  },
+  "name": " Meat Pizza",
+  "image": "https://img.freepik.com/free-photo/assorted-meat-pizza-with-jamon-olives_501050-772.jpg?t=st=1713981757~exp=1713985357~hmac=ccc64bba1075818e3b9bfc664e14fffd581d07eef395a27449a777572ab38ca2&w=740",
+  "price": 250
+},
+{
+  "_id": {
+    "$oid": "662949adf1912d9c1aa190c8"
+  },
+  "name": "Yummy Pizza",
+  "image": "https://img.freepik.com/free-photo/yummy-pizza-with-cheese-grey-surface_140725-14220.jpg?t=st=1713981852~exp=1713985452~hmac=7e9b52480ddaf2bfdbcebd9399663abcd33fa7d3bcabd091d78b8bb74e9a1f8d&w=360",
+  "price": 100
+},
+{
+  "_id": {
+    "$oid": "66294a2bf1912d9c1aa190c9"
+  },
+  "name": "Seafood Pizza",
+  "image": "https://img.freepik.com/premium-photo/seafood-pizza-isolated-white-background_1339-125686.jpg?w=740",
+  "price": 280
+},
+{
+  "_id": {
+    "$oid": "66294acbf1912d9c1aa190ca"
+  },
+  "name": "Chicken Pizza",
+  "image": "https://img.freepik.com/free-photo/chicken-pizza-with-bell-pepper-olives_140725-7233.jpg?t=st=1713982137~exp=1713985737~hmac=503d3ebd559cbc069857ac0e34c6311e2165da81cf5c71c249ddcda93e95c9fa&w=360",
+  "price": 250
+},
+{
+  "_id": {
+    "$oid": "66294b69f1912d9c1aa190cb"
+  },
+  "name": "Traditional Pizza",
+  "image": "https://img.freepik.com/free-photo/traditional-supreme-pizza-wooden-table_123827-20134.jpg?t=st=1713982300~exp=1713985900~hmac=3743a05162612c732453425c64a10f704241de832c2e312f379f4d67e0e4a2f3&w=740",
+  "price": 300
+},
+{
+  "_id": {
+    "$oid": "66294c2bf1912d9c1aa190cc"
+  },
+  "name": "Delicious Pizza",
+  "image": "https://img.freepik.com/free-photo/top-view-delicious-arugula-pizza_23-2148574286.jpg?t=st=1713982491~exp=1713986091~hmac=42257f49de48bb7efa9f1b3caa696fb1d3665661b1832ef8e1bba1bbfd616aac&w=360",
+  "price": 340
+}]

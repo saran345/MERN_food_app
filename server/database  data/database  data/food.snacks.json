@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "66295936f1912d9c1aa190df"
+  },
+  "name": "FrenchFries",
+  "image": "https://img.freepik.com/free-vector/french-fries-coca-cola_1284-24670.jpg?t=st=1713985753~exp=1713989353~hmac=2bbb15f39a21edb7e35ce6615d5cb7c45198c1bb6b9b7bfc79cf3fdd583931a5&w=740",
+  "price": "150"
+},
+{
+  "_id": {
+    "$oid": "66295a19f1912d9c1aa190e0"
+  },
+  "name": "Cool Cola",
+  "image": "https://img.freepik.com/premium-photo/coca-cola-background_670382-71068.jpg?w=740",
+  "price": "90"
+},
+{
+  "_id": {
+    "$oid": "66295adef1912d9c1aa190e1"
+  },
+  "name": "Spring Roll",
+  "image": "https://img.freepik.com/premium-photo/spring-rolls-isolated-soft-background_1166140-5867.jpg?w=826",
+  "price": "150"
+},
+{
+  "_id": {
+    "$oid": "66295cc2f1912d9c1aa190e2"
+  },
+  "name": "Sandwich ",
+  "image": "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?t=st=1713986665~exp=1713990265~hmac=ea3dec21f07080a3401747b60af5f64a0a0c74fc5967e126a0c73ffa8670f32d&w=740",
+  "price": "200"
+},
+{
+  "_id": {
+    "$oid": "66295d87f1912d9c1aa190e3"
+  },
+  "name": "Samosa",
+  "image": "https://img.freepik.com/free-photo/fried-dumplings-samosas-ready-eat-generated-by-ai_188544-43164.jpg?t=st=1713986934~exp=1713990534~hmac=fe680c10bf42068c0e4a90849dad6099f0b27da6d8ed9b3f4c5519b758706539&w=740",
+  "price": "60"
+}]
