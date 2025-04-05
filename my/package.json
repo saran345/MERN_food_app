@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "prebuild": "rm -rf dist",
+    "lint": "eslint .",
+    "preview": "vite preview ",
+    "netlify-build": "npm install && npm run build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",

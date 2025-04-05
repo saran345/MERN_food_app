@@ -17,7 +17,7 @@ export default function Register() {
 
       const tsend=async()=>{ 
         try{
-          const response=await axios.post("http://127.0.0.1:5000/register",{
+          const response=await axios.post("https://foodapp-mern-px0i.onrender.com/register",{
           username:setUname,
           email:setUemail,
           password:setUpass
