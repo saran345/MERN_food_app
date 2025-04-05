@@ -14,7 +14,7 @@ export default function Register() {
       
 
             const tcheck=async()=>{
-                const response=await axios.post('http://127.0.0.1:5000/login',{setUname,setUpass})
+                const response=await axios.post('https://foodapp-mern-px0i.onrender.com/login',{setUname,setUpass})
                 
             }
  

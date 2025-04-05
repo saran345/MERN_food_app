@@ -15,7 +15,7 @@ export default function Cart() {
        useEffect(()=>{
          const fetchData=async()=>{
           try{
-            const response=await axios.get("http://127.0.0.1:5000/gcart")
+            const response=await axios.get("https://foodapp-mern-px0i.onrender.com/gcart")
             setCat([...cat,...response.data])
             console.log("data fetched successfully..!")
           }catch(err){
@@ -27,8 +27,8 @@ export default function Cart() {
        },[])
        const removed=async(id)=>{
         try{
-          await axios.delete(`http://127.0.0.1:5000/delete/${id}`)
-          const response = await axios.get('http://localhost:5000/gcart');
+          await axios.delete(`https://foodapp-mern-px0i.onrender.com/delete/${id}`)
+          const response = await axios.get('https://foodapp-mern-px0i.onrender.com/gcart');
             setCat(response.data);
           console.log("data removed successfully")
         }catch(err){

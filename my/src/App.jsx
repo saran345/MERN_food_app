@@ -7,9 +7,12 @@ import Snacks from "./Comp/Snacks";
 import Register from "./Comp/Register";
 import Login from './Comp/Login'
 import Cart from './Comp/Cart'
+import TestConnection from "../src/TestConnection"
 export default function App(){
   return(
     <> 
+   <TestConnection />
+
     <Routers>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,6 +24,7 @@ export default function App(){
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </Routers>
+
       </>
   )
 } 

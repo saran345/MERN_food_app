@@ -18,7 +18,7 @@ export default function Snacks() {
     useEffect(()=>{  
         const fetchData=async()=>{
             try{
-                const response= await axios.get("http://127.0.0.1:5000/snack")
+                const response= await axios.get("https://foodapp-mern-px0i.onrender.com/snack")
                 setData([...data, ...response.data])
                 console.log(response.data)
 
@@ -30,7 +30,7 @@ export default function Snacks() {
     },[])
     const click=async(product_id)=>{
         try{
-            const response=await axios.post("http://127.0.0.1:5000/scart",{id:product_id})
+            const response=await axios.post("https://foodapp-mern-px0i.onrender.com/scart",{id:product_id})
         console.log(response.data)
         }catch(err){
             console.log('error occur',err)  
