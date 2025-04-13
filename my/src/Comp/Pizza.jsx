@@ -18,7 +18,7 @@ export default function Pizza() {
     useEffect(()=>{ 
         const fetchData=async()=>{
             try{
-                const response= await axios.get("https://foodapp-mern-px0i.onrender.com/product")
+                const response= await axios.get("https://mernfoodapp-production.up.railway.app/product")
                 setData([...data, ...response.data])
                 console.log(response.data)
 
@@ -30,7 +30,7 @@ export default function Pizza() {
     },[])
     const click=async(product_id)=>{
         try{
-            const response=await axios.post("https://foodapp-mern-px0i.onrender.com/cart",{id:product_id})
+            const response=await axios.post("https://mernfoodapp-production.up.railway.app/cart",{id:product_id})
         console.log(response.data)
         }catch(err){
             console.log('error occur',err)  

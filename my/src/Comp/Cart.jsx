@@ -15,7 +15,7 @@ export default function Cart() {
        useEffect(()=>{
          const fetchData=async()=>{
           try{
-            const response=await axios.get("https://foodapp-mern-px0i.onrender.com/gcart")
+            const response=await axios.get("https://mernfoodapp-production.up.railway.app/gcart")
             setCat([...cat,...response.data])
             console.log("data fetched successfully..!")
           }catch(err){
@@ -27,8 +27,8 @@ export default function Cart() {
        },[])
        const removed=async(id)=>{
         try{
-          await axios.delete(`https://foodapp-mern-px0i.onrender.com/delete/${id}`)
-          const response = await axios.get('https://foodapp-mern-px0i.onrender.com/gcart');
+          await axios.delete(`https://mernfoodapp-production.up.railway.app/delete/${id}`)
+          const response = await axios.get('https://mernfoodapp-production.up.railway.app/gcart');
             setCat(response.data);
           console.log("data removed successfully")
         }catch(err){
